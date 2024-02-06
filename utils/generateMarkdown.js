@@ -23,8 +23,10 @@ ${data.usage}
 ## License
 This project is licensed under the ${data.license}.
 
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/${data.username}/${data.repo}/blob/master/LICENSE)
+
 ## Contributing
-${data.contribution}
+${data.contributing}
 
 ## Tests
 ${data.tests}
