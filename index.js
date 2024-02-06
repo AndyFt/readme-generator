@@ -83,3 +83,15 @@ const questions = [
     message: "Add the name of your GitHub repository."
   },
 ];
+
+// function to write README file
+function writeToFile(data) {
+  const outputDir  = path.join(__dirname, 'output');
+  const fileName = path.join(outputDir, 'README.md');
+
+  if  (!fs.existsSync(outputDir)){
+    fs.mkdirSync(outputDir);
+  }
+
+  fs.writeFileSync(fileName, data);
+}
