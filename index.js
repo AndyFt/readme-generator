@@ -95,3 +95,21 @@ function writeToFile(data) {
 
   fs.writeFileSync(fileName, data);
 }
+
+// function to initialize program
+const init = async() => {
+  console.log("Hi! Let's create your README file.");
+  try{
+    const answers = await inquirer.prompt(questions);
+    // use the generateMarkdown function in utils/generateMarkdown to create markdown from user input
+    const readMeContent = generateMarkdown(answers);
+    // write the content to a new file named 'README.md'
+    writeToFile(readMeContent);
+    console.log('Your README.md has been created successfully!');
+  } catch (err) {
+    console.log(err);
+  };
+};
+
+// function call to initialize program
+init();
