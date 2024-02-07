@@ -13,16 +13,10 @@
 The README Generator is a Node.js-based command-line application that simplifies the process of creating a well-structured README file for your projects. Writing an informative and organised README is essential for users and contributors to understand your project, its functionalities, and how to get started. This tool automates the README creation process, allowing you to focus more on your project and less on documentation.
 
 ## Installation
-1- Clone the repository to your local machine: "git clone https://github.com/your-username/your-project.git”;</br>
-2- Navigate to the project directory: “cd your-readme-generator”; </br>
-3- Install the dependencies: “npm init -y” and “npm i inquirer”.
+1- Clone the repository to your local machine: "git clone https://github.com/your-username/your-project.git”;\n 2- Navigate to the project directory: “cd your-readme-generator”;\n 3- Install the dependencies: “npm init -y” and “npm i inquirer”.
 
 ## Usage
-1- Open a terminal in the project directory.</br> 2- Run the command "node index.js".</br> 3- Answer the prompts to provide information for your README file.</br> 4- Once you have answered everything, your README file will be generated in the "output" directory.
-
-You may find the video  demonstrating how to use this application here: https://github.com/AndyFt/readme-generator/blob/main/assets/video.
-
-![README generator screenshot](https://github.com/AndyFt/readme-generator/blob/main/assets/image/readme-generator-screenshot.png)
+Open a terminal in the project directory.\n Run the command "node index.js".\n Answer the prompts to provide information for your README file.\n Once you have answered everything, your README file will be generated in the "output" directory.
 
 ## License
 This project is licensed under the MIT License.
