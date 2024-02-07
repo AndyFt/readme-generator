@@ -18,8 +18,11 @@ The README Generator is a Node.js-based command-line application that simplifies
 ## Usage
 Open a terminal in the project directory.\n Run the command "node index.js".\n Answer the prompts to provide information for your README file. Once you have answered everything, your README file will be generated in the "output" directory.
 
-You may find the video  demonstrating how to use this application here: https://github.com/AndyFt/readme-generator/blob/main/assets/.
-![README generator screenshot](https://github.com/AndyFt/readme-generator/blob/main/assets/readme-generator-screenshot.png)
+You may find the video  demonstrating how to use this application here: https://github.com/AndyFt/readme-generator/blob/main/assets/video.
+
+![README generator screenshot](https://github.com/AndyFt/readme-generator/blob/main/assets/image/readme-generator-screenshot.png)
+
+![README generator screen-capture](https://github.com/AndyFt/readme-generator/blob/main/assets/video/readme-generator-screen-capture.webm.mov)
 
 ## License
 This project is licensed under the MIT License.
