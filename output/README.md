@@ -22,8 +22,6 @@ You may find the video  demonstrating how to use this application here: https://
 
 ![README generator screenshot](https://github.com/AndyFt/readme-generator/blob/main/assets/image/readme-generator-screenshot.png)
 
-![README generator screen-capture](https://github.com/AndyFt/readme-generator/blob/main/assets/video/readme-generator-screen-capture.webm.mov)
-
 ## License
 This project is licensed under the MIT License.
 
